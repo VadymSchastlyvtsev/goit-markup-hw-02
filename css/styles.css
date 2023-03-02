@@ -36,15 +36,14 @@ body {
   font-size: 18px;
   line-height: 1.33;
   color: var(--dark-text);
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .logo-item-studio {
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  letter-spacing: 0.03em;
 }
 .logo-item {
   color: var(--primary-brand);
+  letter-spacing: 0.03em;
 }
 /* nav */
 .nav-item {
@@ -104,11 +103,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
+
   letter-spacing: 0.04em;
   background-color: var(--primary-brand);
   border-radius: 4px;
   cursor: pointer;
+  font-family: 'Roboto', sans-serif;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -185,12 +185,12 @@ body {
 .portfolio-btn {
   background-color: var(--light-text);
   color: var(--primary-brand);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
+  
   text-align: center;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -211,14 +211,9 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.project-link-title:hover, .project-link-title:focus {
-  color: var(--primary-brand);
-}
+
 .projects-link-text {
   color: var(--text-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.projects-link-text:hover, .projects-link-text:focus {
-  color: var(--primary-brand);
 }
