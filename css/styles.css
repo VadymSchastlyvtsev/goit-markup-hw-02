@@ -35,23 +35,22 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  color: var(--dark-text);
+  color: var(--primary-brand);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .logo-item-studio {
-  letter-spacing: 0.03em;
+  color: var(--dark-text);
 }
-.logo-item {
-  color: var(--primary-brand);
-  letter-spacing: 0.03em;
-}
+
 /* nav */
 .nav-item {
   color: var(--dark-text);
   font-style: normal;
   font-weight: 500;
 
-  line-height: 1.33;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .nav-item:hover,
@@ -59,9 +58,11 @@ body {
   color: var(--presed-state);
 }
 /* Contact information */
-.address-mail {
-  color: var(--dark-text);
+.address {
   font-style: normal;
+}
+.address-mail {
+  color: var(--text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -71,8 +72,7 @@ body {
   color: var(--presed-state);
 }
 .address-tel {
-  color: var(--dark-text);
-  font-style: normal;
+  color: var(--text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
